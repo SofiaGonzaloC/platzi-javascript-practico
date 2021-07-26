@@ -26,6 +26,7 @@ header p{
 }
 
 main{
+    margin: 5%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -57,6 +58,7 @@ section button{
     border-radius: 5px;
 
     margin: 10px;
+
 }
 
 section input{
@@ -73,6 +75,7 @@ section input{
 
     margin: 10px;
 }
+
 
 input[type=number] {
     -moz-appearance: textfield;

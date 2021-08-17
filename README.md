@@ -13,3 +13,10 @@
 2. Implementar formulas en JS
 3. Crear funciones
 4. Integrar JS con HTML
+
+## Taller #3: Media, mediana y moda
+
+1. Definir las formas
+2. Implementar formulas en JS
+3. Crear funciones
+4. Integrar JS con HTML

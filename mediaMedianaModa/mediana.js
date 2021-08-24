@@ -1,3 +1,5 @@
+const lista = document.getElementById("list")
+
 function calcularMediaAritmetica(lista){
     const sumaLista = lista.reduce( // recibe una funcion y va sumando cada uno de sus elementos
         function(valorAcumulado = 0, nuevoElemento){ 
@@ -32,5 +34,5 @@ function calcularMedianaAritmetica(lista){
 
     }
 
-    return medianaLista
+    alert (medianaLista)
 }

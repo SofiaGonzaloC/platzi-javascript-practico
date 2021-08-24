@@ -1,4 +1,4 @@
-
+const lista = document.getElementById("list")
 
 function calcularModaAritmetica(lista) {
     const listaCount = {}; // Objeto para contar cuantas veces aparece un elemento
@@ -24,5 +24,5 @@ function calcularModaAritmetica(lista) {
 
     const moda = listaArray[listaArray.length - 1] // Toma el ultimo elemento del array (que es el más grande)
 
-    return moda;
+    alert (moda);
 }

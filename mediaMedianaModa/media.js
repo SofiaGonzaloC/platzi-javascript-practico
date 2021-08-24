@@ -1,14 +1,16 @@
-const lista = document.getElementById("list")
+const lista = document.getElementsByName('lista[]')
 
-function calcularMediaAritmetica(lista){
+console.log(lista)
+
+function calcularMediaAritmetica(lista) {
     const sumaLista = lista.reduce( // recibe una funcion y va sumando cada uno de sus elementos
-        function(valorAcumulado = 0, nuevoElemento){ 
+        function (valorAcumulado = 0, nuevoElemento) {
             // valorAcumulado = suma de las iteraciones, 0 por defecto
             return valorAcumulado + nuevoElemento
         }
     )
 
-    const promedioLista = sumaLista/lista.length
+    const promedioLista = sumaLista / lista.length
 
     alert(promedioLista)
 }

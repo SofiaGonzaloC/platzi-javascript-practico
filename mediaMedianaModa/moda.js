@@ -1,4 +1,4 @@
-const lista = document.getElementById("list")
+
 
 function calcularModaAritmetica(lista) {
     const listaCount = {}; // Objeto para contar cuantas veces aparece un elemento
